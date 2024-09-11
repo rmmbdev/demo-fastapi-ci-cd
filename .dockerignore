@@ -1,0 +1,11 @@
+**/Dockerfile*
+**/build
+**/BUILD
+**/node_modules
+**/__pycache__
+**/*.lock
+**/*.env*
+**/*.sqlite3
+**/test-results
+**/playwright-report
+**/playwright/.cache

@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "demo-fastapi-ci-cd"
+version = "0.1.0"
+description = "This project demonstrates how to use FastApi framework to creat apis"
+authors = ["Reza Mohammadi <rmm.dev.backend@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["all"], version = "^0.114.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
